@@ -4,10 +4,8 @@ git config --global user.name "Lan Xiao"
 git config --global user.email "lx223@users.noreply.github.com"
 git config --global credential.helper osxkeychain
 
-# iTerm2
 brew tap caskroom/cask
 brew cask install iterm2
-git submodule update
 
 # Zsh
 brew install zsh zplug
