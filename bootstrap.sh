@@ -1,11 +1,13 @@
+brew tap caskroom/cask
+brew cask install iterm2
+brew cask install atom
+
 # Git
 brew install git
 git config --global user.name "Lan Xiao"
 git config --global user.email "lx223@users.noreply.github.com"
 git config --global credential.helper osxkeychain
-
-brew tap caskroom/cask
-brew cask install iterm2
+git config --global core.editor "atom --wait"
 
 # Zsh
 brew install zsh zplug
