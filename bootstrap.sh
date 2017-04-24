@@ -8,6 +8,7 @@ git config --global user.name "Lan Xiao"
 git config --global user.email "lx223@users.noreply.github.com"
 git config --global credential.helper osxkeychain
 git config --global core.editor "atom --wait"
+git config --global rebase.autoStash true
 
 # Zsh
 brew install zsh zplug
