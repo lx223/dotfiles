@@ -2,6 +2,9 @@ brew tap caskroom/cask
 brew cask install iterm2
 brew cask install atom
 
+# Yarn
+brew install yarn
+
 # Git
 brew install git
 git config --global user.name "Lan Xiao"
