@@ -1,16 +1,13 @@
 brew tap caskroom/cask
 brew cask install iterm2
-brew cask install atom
-
-# Yarn
-brew install yarn
+brew cask install visual-studio-code
 
 # Git
 brew install git
 git config --global user.name "Lan Xiao"
 git config --global user.email "lx223@users.noreply.github.com"
 git config --global credential.helper osxkeychain
-git config --global core.editor "atom --wait"
+git config --global core.editor "code --wait"
 git config --global rebase.autoStash true
 
 # Zsh

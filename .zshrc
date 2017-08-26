@@ -14,6 +14,10 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug mafredri/zsh-async, from:github
 zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
+# Set nvm
+export NVM_AUTO_USE=true
+zplug "lukechilds/zsh-nvm"
+
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
