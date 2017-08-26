@@ -14,6 +14,11 @@ zplug "lukechilds/zsh-nvm"
 
 # Syntax highlighting - always as the last to add
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
+
+# bind UP and DOWN key for history search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 # Set theme
 zplug mafredri/zsh-async, from:github
