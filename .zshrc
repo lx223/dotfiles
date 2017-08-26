@@ -6,6 +6,11 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "plugins/git",   from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
+zplug "rupa/z", use:z.sh
+
+# Set nvm
+export NVM_AUTO_USE=true
+zplug "lukechilds/zsh-nvm"
 
 # Syntax highlighting - always as the last to add
 zplug "zsh-users/zsh-syntax-highlighting"
@@ -13,10 +18,6 @@ zplug "zsh-users/zsh-syntax-highlighting"
 # Set theme
 zplug mafredri/zsh-async, from:github
 zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
-
-# Set nvm
-export NVM_AUTO_USE=true
-zplug "lukechilds/zsh-nvm"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
