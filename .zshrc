@@ -11,8 +11,8 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
 
 # Set theme
-POWERLEVEL9K_MODE='awesome-patched'
-zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+zplug mafredri/zsh-async, from:github
+zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
@@ -23,7 +23,7 @@ if ! zplug check --verbose; then
 fi
 
 # Apply plugins
-zplug load --verbose
+zplug load
 
 # Aliases
 alias gt='gitk &'
