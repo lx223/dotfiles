@@ -48,5 +48,3 @@ alias grb='git rebase'
 alias gpu='git push'
 alias grh='git reset --hard'
 alias grs='git reset --soft'
-
-cd ~/InventedWorld
