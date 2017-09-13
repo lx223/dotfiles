@@ -20,6 +20,13 @@ zplug "zsh-users/zsh-history-substring-search"
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+# bind ⌥ + ← and → to move one word backward/forward
+# bind ⌥ + UP and DOWN to move start and end of a line
+bindkey "^[^[[D" backward-word
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[A" beginning-of-line
+bindkey "^[^[[B" end-of-line
+
 # Set theme
 zplug mafredri/zsh-async, from:github
 zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
