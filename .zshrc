@@ -55,3 +55,5 @@ alias grb='git rebase'
 alias gpu='git push'
 alias grh='git reset --hard'
 alias grs='git reset --soft'
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
