@@ -57,3 +57,5 @@ alias grh='git reset --hard'
 alias grs='git reset --soft'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

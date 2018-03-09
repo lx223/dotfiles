@@ -2,6 +2,8 @@ brew tap caskroom/cask
 brew cask install iterm2
 brew cask install visual-studio-code
 
+brew install fzf
+
 # Git
 brew install git
 git config --global user.name "Lan Xiao"
