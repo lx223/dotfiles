@@ -59,3 +59,5 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(direnv hook zsh)"

@@ -3,6 +3,7 @@ brew cask install iterm2
 brew cask install visual-studio-code
 
 brew install fzf
+brew install direnv
 
 # Git
 brew install git
