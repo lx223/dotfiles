@@ -56,7 +56,8 @@ alias gpu='git push'
 alias grh='git reset --hard'
 alias grs='git reset --soft'
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
