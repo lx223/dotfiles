@@ -16,4 +16,5 @@ git config --global rebase.autoStash true
 # Zsh
 brew install zsh zplug
 ln -s "$(pwd)/.zshrc" ~/.zshrc
+touch ~/.zsh_history
 (echo 'echo /usr/local/bin/zsh >> /etc/shells' | sudo -s) && chsh -s /usr/local/bin/zsh
