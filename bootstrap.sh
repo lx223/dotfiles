@@ -12,6 +12,7 @@ git config --global user.email "lx223@users.noreply.github.com"
 git config --global credential.helper osxkeychain
 git config --global core.editor "code --wait"
 git config --global rebase.autoStash true
+git config --global push.default current
 
 # Zsh
 brew install zsh zplug
