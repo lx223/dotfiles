@@ -46,7 +46,7 @@ zplug load
 alias gt='gitk &'
 alias gu='git gui &'
 alias gs='git status'
-alias gf='git fetch --all'
+alias gf='git fetch --all --prune'
 alias gb='git branch'
 alias gc='git checkout'
 alias gp='git pull --rebase'
