@@ -19,3 +19,6 @@ brew install zsh zplug
 ln -s "$(pwd)/.zshrc" ~/.zshrc
 touch ~/.zsh_history
 (echo 'echo /usr/local/bin/zsh >> /etc/shells' | sudo -s) && chsh -s /usr/local/bin/zsh
+
+brew install tmux
+ln -s "$(pwd)/.tmux.conf" ~/.tmux.conf
