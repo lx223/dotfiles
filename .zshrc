@@ -1,4 +1,4 @@
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=/opt/homebrew/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
@@ -69,5 +69,3 @@ setopt hist_ignore_all_dups
 setopt hist_ignore_space
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-eval "$(direnv hook zsh)"
