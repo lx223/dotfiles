@@ -8,10 +8,6 @@ zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "rupa/z", use:z.sh
 
-# Set nvm
-export NVM_AUTO_USE=true
-zplug "lukechilds/zsh-nvm"
-
 # Syntax highlighting - always as the last to add
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
